@@ -220,3 +220,7 @@ html {
 h2 {
     margin: 0;
 }
+.top-banner img {
+    display: inline-block;
+    width: 40px;
+}

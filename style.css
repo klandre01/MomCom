@@ -131,6 +131,10 @@
     margin: auto;
     width: 800px
 }
+.img-container-two {
+    width: 570px;
+    margin: auto;
+}
 
 
 /** resources.html **/
@@ -165,7 +169,7 @@
     font-size: 18px;
     width: 45%;
 }
-.post span {
+.date {
     font-size: 16px;
     color: #9c9a97;
 }
@@ -174,12 +178,25 @@
     width: 45%;
     padding-left: 40px;
 }
+.comments h3 {
+    text-align: center;
+}
 
 .comment {
-    padding: 5px 10px;
+    padding: 15px 10px;
     border-radius: 5px;
-    background-color: #dedcd9;
+    background-color: #f5f4f2;
     margin-bottom: 20px;
+    font-size: 17px;
+}
+.comment h5 {
+    color: red;
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.doula-comment {
+    margin-top: 0;
 }
 
 /** General **/

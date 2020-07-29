@@ -1,0 +1,91 @@
+/** index.html **/
+.top-banner {
+    background-color: #7290C6;
+    position: relative;
+    height: 60px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.nav-links {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.nav-links span {
+    margin-right: 10px;
+}
+
+.main {
+    display: flex;
+    height: 300px;
+}
+
+.left {
+    /**background-color: #CFCCC7;**/
+    flex-basis: 30%;
+    height: 100%
+}
+.right {
+    /**background-color: #050505;**/
+    flex-basis: 70%;
+    flex-direction: column;
+    height: 100%;
+}
+
+.resources {
+    border: 4px solid #a6a39f;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/** about.html **/
+.body {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 99%;
+}
+.problem-statement {
+    background-color: #7290C6;
+    height: 50%;
+}
+.bio {
+    background-color: #CFCCC7; 
+    height: 50%;
+}
+.text {
+    padding-top: 50px;
+}
+.about-inner {
+    width: 65%;
+    margin: auto;
+    font-size: 18px;
+}
+.about-inner img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%; 
+}
+
+/** General **/
+h1 {
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+html {
+    font-family: Mulish, sans-serif;
+}

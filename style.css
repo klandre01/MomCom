@@ -124,6 +124,9 @@
     height: 50%;
     padding-bottom: 100px;
 }
+.bio h1 {
+    margin-top: 60px;
+}
 .text {
     padding-top: 50px;
 }
@@ -140,7 +143,7 @@
 .about-inner img {
     width: 200px;
     border-radius: 50%;
-    margin: 30px 30px 20px 30px;
+    margin: 10px 30px 20px 30px;
 }
 .img-container {
     margin: auto;
@@ -156,6 +159,17 @@
     justify-content: center;
 }
 .img span {
+    text-align: center;
+}
+.slides {
+    background-color: #CFCCC7;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+.slides h1 {
+    padding-bottom: 30px;
+}
+.iframe {
     text-align: center;
 }
 
@@ -219,17 +233,6 @@
 }
 .doula-comment {
     margin-top: 0;
-}
-.slides {
-    background-color: #CFCCC7;
-    padding-bottom: 100px;
-    padding-top: 30px;
-}
-.slides h1 {
-    padding-bottom: 30px;
-}
-.iframe {
-    text-align: center;
 }
 
 /** General **/

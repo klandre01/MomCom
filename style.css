@@ -220,6 +220,17 @@
 .doula-comment {
     margin-top: 0;
 }
+.slides {
+    background-color: #CFCCC7;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+.slides h1 {
+    padding-bottom: 30px;
+}
+.iframe {
+    text-align: center;
+}
 
 /** General **/
 h1 {

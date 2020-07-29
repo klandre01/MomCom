@@ -106,9 +106,18 @@
     flex-direction: column;
 }
 .problem-statement {
-    padding-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 200px;
     background-color: #CFCCC7;
     height: 350px;
+    display: flex;
+}
+#problem-statement {
+    margin: 60px;
+    width: 45%;
+}
+#about-us {
+    width: 55%;
 }
 .bio {
     background-color: #7290C6; 
@@ -117,6 +126,11 @@
 }
 .text {
     padding-top: 50px;
+}
+.top-section {
+    width: 85%;
+    margin: auto;
+    font-size: 18px;
 }
 .about-inner {
     width: 65%;
